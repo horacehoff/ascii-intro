@@ -9,8 +9,8 @@ async function asciiIntro(preId, ascii, frameDelay = 22) {
         return str.substring(0, index) + replacement + str.substring(index + replacement.length);
     }
 
-
-    let final = ascii.trim().trim()
+    // uncomment if your ascii contains whitespaces
+    // let final = ascii.trim().trim()
     document.getElementById(preId).innerText = ""
 
     let lines = final.split("\n")
