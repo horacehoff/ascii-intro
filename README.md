@@ -1,5 +1,5 @@
 # Ascii-Intro
-> A very simple and lightweight JavaScript library (676 bytes minified) to animate ASCII art. Essentially, what it does is animate an "intro animation" of your ASCII text.
+> A very simple and lightweight JavaScript library (676 bytes minified) to animate ASCII art. Essentially, what it does is animate an "intro animation" of your ASCII art.
 
 ### Parameters
 | Param                     | Type                | Description  |
