@@ -13,7 +13,7 @@ async function asciiIntro(preId, ascii, frameDelay = 22) {
     // let final = ascii.trim().trim()
     document.getElementById(preId).innerText = ""
 
-    let lines = final.split("\n")
+    let lines = ascii.split("\n")
     let possible_chars = ["*","-","/","+","=","#"]
 
     let lengths = []
